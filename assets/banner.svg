@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img" aria-labelledby="t d">
+  <title id="t">OpsMind AI</title>
+  <desc id="d">Find where a process loses time, and what to fix first.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.18" r="0.65">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#fff" fill-opacity="0.11"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="340" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="340" fill="url(#bg)"/>
+    <rect width="1280" height="340" fill="url(#dots)"/>
+    <rect width="1280" height="340" fill="url(#glow)"/>
+    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+      <g stroke-opacity='0.35' stroke-width='2.5'><line x1='900' y1='232' x2='1236' y2='232' stroke-dasharray='8 7'/><line x1='900' y1='300' x2='1236' y2='300' stroke-dasharray='8 7'/></g><line x1='900' y1='266' x2='1236' y2='266' stroke-width='2' stroke-opacity='0.25'/><polyline points='905,272 935,258 965,282 995,262 1025,276 1055,252 1085,284 1115,262 1145,250 1175,218 1205,262 1232,270' stroke-width='3.5' stroke-opacity='0.9'/><circle cx='1175' cy='218' r='7' fill='#fff' stroke='none'/><circle cx='905' cy='120' r='8' fill='#fff' stroke='none' fill-opacity='0.9'/><path d='M913 120 L933 120' stroke-width='3' stroke-opacity='0.8'/><rect x='935' y='98' width='78' height='44' rx='12' stroke-width='3' stroke-opacity='0.8'/><rect x='1055' y='50' width='78' height='44' rx='12' stroke-width='3' stroke-opacity='0.8'/><rect x='1055' y='146' width='78' height='44' rx='12' stroke-width='6' fill='#fff' fill-opacity='0.18'/><path d='M1013 110 C1032 98 1036 76 1053 72' stroke-width='3' stroke-opacity='0.8'/><path d='M1013 130 C1032 142 1036 164 1053 168' stroke-width='5' stroke-opacity='0.9'/><path d='M1133 72 Q1156 78 1162 100' stroke-width='3' stroke-opacity='0.8'/><path d='M1133 168 Q1156 162 1162 140' stroke-width='5' stroke-opacity='0.9'/><circle cx='1190' cy='120' r='30' stroke-width='12' stroke-dasharray='9.42 6.28' stroke-opacity='0.55'/><circle cx='1190' cy='120' r='12' stroke-width='4' stroke-opacity='0.85'/>
+    </g>
+  </g>
+  <text x="64" y="138" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#fff" letter-spacing="-1.5">OpsMind AI</text>
+  <text x="66" y="188" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" fill="#fff" fill-opacity="0.9">Find where a process loses time, and what to fix first.</text>
+  <rect x="66" y="236" width="148" height="34" rx="17" fill="#fff" fill-opacity="0.14" stroke="#fff" stroke-opacity="0.28"/><text x="140" y="258.5" text-anchor="middle" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff">Process mining</text>
+  <rect x="224" y="236" width="122" height="34" rx="17" fill="#fff" fill-opacity="0.14" stroke="#fff" stroke-opacity="0.28"/><text x="285" y="258.5" text-anchor="middle" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff">Bottlenecks</text>
+  <rect x="356" y="236" width="148" height="34" rx="17" fill="#fff" fill-opacity="0.14" stroke="#fff" stroke-opacity="0.28"/><text x="430" y="258.5" text-anchor="middle" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff">Control charts</text>
+  <rect x="514" y="236" width="122" height="34" rx="17" fill="#fff" fill-opacity="0.14" stroke="#fff" stroke-opacity="0.28"/><text x="575" y="258.5" text-anchor="middle" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff">Lean wastes</text>
+  <rect x="646" y="236" width="148" height="34" rx="17" fill="#fff" fill-opacity="0.14" stroke="#fff" stroke-opacity="0.28"/><text x="720" y="258.5" text-anchor="middle" font-family="'Segoe UI', Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff">AI action plan</text>
+</svg>

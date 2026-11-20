@@ -1,0 +1,99 @@
+[
+  {
+    "id": "valdora-order-fulfilment",
+    "name": "Valdora Supply · Order fulfilment",
+    "company": "Valdora Supply Co.",
+    "industry": "B2B distributor of industrial parts",
+    "process": "Order fulfilment (order-to-invoice)",
+    "description": "Sales orders from receipt through credit check, manager approval, picking, packing and shipping to the invoice.",
+    "events_file": "data/valdora_events.csv",
+    "kpis_file": "data/valdora_kpis.csv",
+    "reference_path": [
+      "Receive order",
+      "Check credit",
+      "Approve order",
+      "Pick goods",
+      "Pack goods",
+      "Ship goods",
+      "Send invoice"
+    ],
+    "kpis": {
+      "throughput": {
+        "label": "Orders invoiced / day",
+        "target": 10
+      },
+      "cycle_time_days": {
+        "label": "Order cycle time",
+        "target": 4.0
+      },
+      "first_pass_yield": {
+        "target": 0.85
+      },
+      "otif": {
+        "target": 0.95
+      },
+      "cost_per_order": {
+        "label": "Cost per order",
+        "target": 95
+      }
+    },
+    "planted": [
+      "Approval bottleneck: three sales managers approve orders, but Marta Ilić receives 56% of them and her queue is about 2.3 times longer than her colleagues'.",
+      "From 30 Mar 2026 Jonas Berg moves to key accounts: Marta's share rises to 80% and her queue grows again, which shifts cycle time upwards.",
+      "Rework: 12% of orders are rejected at approval and updated; 8% of invoices need correcting, rising to 17% after a new price list on 4 May 2026.",
+      "Skipped and out-of-order steps: 7% of orders skip the credit check; 3% get a pro-forma invoice before picking.",
+      "3% of credit-checked orders are cancelled.",
+      "Calendar: no work at weekends; the carrier collects at 15:00 on business days, and a strike cancels the pickup on 22 Apr 2026.",
+      "KPIs: in-full deliveries drop during a supplier shortage (18 May to 5 Jun 2026); emergency couriers add two one-day cost spikes (12 Mar and 10 Jun 2026)."
+    ]
+  },
+  {
+    "id": "brenmoor-invoice-to-pay",
+    "name": "Brenmoor Foods · Invoice-to-pay",
+    "company": "Brenmoor Foods Ltd",
+    "industry": "Food manufacturer",
+    "process": "Procure-to-pay: supplier invoice handling",
+    "description": "Supplier invoices from receipt through capture, three-way match, budget-holder approval and the daily payment run.",
+    "events_file": "data/brenmoor_events.csv",
+    "kpis_file": "data/brenmoor_kpis.csv",
+    "reference_path": [
+      "Receive invoice",
+      "Scan and capture",
+      "Match to PO",
+      "Approve invoice",
+      "Schedule payment",
+      "Pay invoice"
+    ],
+    "kpis": {
+      "throughput": {
+        "label": "Invoices paid / day",
+        "target": 10
+      },
+      "cycle_time_days": {
+        "label": "Invoice cycle time",
+        "target": 3.5
+      },
+      "first_pass_yield": {
+        "target": 0.85
+      },
+      "otif": {
+        "label": "Supplier OTIF",
+        "target": 0.95
+      },
+      "cost_per_order": {
+        "label": "Cost per invoice",
+        "target": 28
+      }
+    },
+    "planted": [
+      "Approval batching: budget holders approve in fixed sessions. Owen Hale (47% of invoices) approves on Tuesday and Thursday afternoons only, Freya Collins on Monday, Wednesday and Friday mornings.",
+      "From 23 Mar 2026, to save meeting time, Owen Hale approves on Thursdays only and Freya Collins on Mondays only; Dario Russo keeps approving daily. This shifts cycle time upwards.",
+      "Overloaded specialist: Inês Duarte resolves 80% of price discrepancies and her queue is about 2.4 times longer than Tom Becker's.",
+      "Rework: 15% of matches fail and are re-matched after the discrepancy is resolved, rising to 30% after supplier price changes on 11 May 2026; 6% of approvals need a clarification first.",
+      "Skipped steps: 6% are non-PO invoices that skip matching; 3% are paid without approval.",
+      "2% of invoices are duplicates, cancelled after capture.",
+      "Calendar: no work at weekends; one payment run a day at 13:00, released to the bank at 16:30.",
+      "KPIs: supplier OTIF drops during delivery problems (2 to 20 Mar 2026); two one-day cost spikes (18 Feb and 3 Jun 2026)."
+    ]
+  }
+]
